@@ -470,6 +470,9 @@
   }
 }
 @media screen and (max-width: 530px) {
+  .homepage-upload-sec {
+    height: 70vh;
+  }
   .homepage-upload-drop-area-btn-sec {
     height: 350px;
     width: 90%;
