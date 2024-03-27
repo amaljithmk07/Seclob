@@ -1,0 +1,291 @@
+.signinpage-main-body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ///Main left body */
+
+.signinpage-left-body {
+  min-height: 10vh;
+  /* right: 10px; */
+
+  width: 50%;
+  background-color: rgb(41, 102, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signinpage-logo-sec {
+  height: 20vh;
+  width: 80%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* background-color: red; */
+}
+.signinpage-logo {
+  width: auto;
+  height: 50%;
+  border-radius: 150px;
+}
+.signinpage-brand-name-sec {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  /* background-color: rgb(21, 255, 0); */
+}
+.signinpage-social-media-logo-sec {
+  height: 20vh;
+  width: 40%;
+  /* background-color: rgb(255, 213, 0); */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.signinpage-social-media-logo {
+  height: 25px;
+  width: auto;
+  filter: invert(1);
+  /* aspect-ratio: 7/6; */
+}
+
+/* ///Center seperation slide */
+
+.signinpage-seperate {
+  height: 0;
+  width: 0;
+  border-top: 100vh solid rgb(41, 102, 255);
+  border-right: 10vh solid transparent;
+}
+
+/* //Main right body */
+
+.signinpage-right-body {
+  height: 100vh;
+  width: 50%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.signinpage-login-body-sec {
+  min-height: 60vh;
+  /* width: 45%; */
+  width: 350px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login-body-title-sec {
+  height: 50px;
+  width: 100%;
+  /* background-color: rgb(45, 183, 234); */
+}
+
+/* ///For Demo styles we can use Heading tags */
+
+h2,
+h5 {
+  color: rgb(34, 34, 34);
+}
+
+.login-body-login-with-sec {
+  height: 60px;
+  width: 100%;
+  /* background-color: cyan; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-body-login-with-google,
+.login-body-login-with-apple {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  height: 60%;
+  font-size: 0.7rem;
+  width: 48%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.google-apple-logo {
+  height: 15px;
+  width: auto;
+}
+.login-form {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login-form-email-sec,
+.login-form-password-sec {
+  height: 60px;
+  width: 85%;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  /* background-color: rgb(21, 0, 255); */
+}
+.login-form-input {
+  border: 0;
+  height: 37px;
+  width: 95%;
+  border-radius: 8px;
+  padding: 0 0px 0 10px;
+  background-color: rgb(236, 236, 236);
+}
+.login-form-input:focus {
+  outline: none;
+}
+.login-form-forgotpass-sec {
+  height: 20px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  color: blue;
+  /* background-color: rgb(21, 0, 255); */
+
+  font-size: 0.9rem;
+}
+
+.login-form-signin-btn-sec {
+  height: 40px;
+  width: 85%;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  /* background-color: rgb(21, 0, 255); */
+}
+.signin-button {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+.login-register-link {
+  height: 40px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 0.8rem;
+}
+.signinpage-login-form-socialmedia {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .signinpage-seperate {
+    display: none;
+  }
+  .signinpage-main-body {
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .signinpage-left-body {
+    height: 80px;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+
+    /* height: 600px; */
+    width: 100%;
+  }
+  .signinpage-logo-sec {
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  }
+  .signinpage-logo {
+    width: auto;
+    height: 80%;
+    /* background-color: red; */
+    border-radius: 150px;
+  }
+  .signinpage-brand-name-sec {
+    /* height: 30vh; */
+    height: 100%;
+    width: auto;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  /* /// Left side Socialmedia logos display set no none */
+
+  .signinpage-social-media-logo-sec {
+    display: none;
+  }
+  .signinpage-right-body {
+    margin: 50px 0;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .signinpage-login-body-sec {
+    min-height: 100vh;
+    justify-content: space-evenly;
+    /* background-color: red ; */
+    width: 350px;
+  }
+
+  /* ///Socal media logos under login form */
+
+  .signinpage-login-form-socialmedia {
+    display: flex;
+
+    height: 20vh;
+    width: 40%;
+    /* background-color: rgb(255, 213, 0); */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .signinpage-social-media-logo {
+    height: 25px;
+    width: auto;
+    filter: invert(1) drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.134));
+    /* aspect-ratio: 7/6; */
+  }
+}
+@media screen and (max-width: 400px) {
+  .signinpage-login-body-sec {
+    width: 90%;
+  }
+}
