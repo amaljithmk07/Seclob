@@ -21,7 +21,7 @@ const SigninPage = () => {
       toast.error("Password is empty");
       return true;
     } else {
-      toast.error("Login Successful");
+      toast.success("Login Successful");
     }
 
     setTimeout(() => {

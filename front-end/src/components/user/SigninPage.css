@@ -259,7 +259,7 @@ h5 {
     width: 100%;
   }
   .signinpage-login-body-sec {
-    min-height: 100vh;
+    min-height: 80vh;
     justify-content: space-evenly;
     /* background-color: red ; */
     width: 350px;
